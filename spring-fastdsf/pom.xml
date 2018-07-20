@@ -1,22 +1,24 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.neo</groupId>
-  <artifactId>spring-fastdsf</artifactId>
-  <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>cts Maven Webapp</name>
-  <url>http://maven.apache.org</url>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.neo</groupId>
+	<artifactId>spring-fastdsf</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>cts Maven Webapp</name>
+	<url>http://maven.apache.org</url>
 	<properties>
 		<java.version>1.7</java.version>
 	</properties>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  	<dependency>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
 			<version>2.5</version>
@@ -56,10 +58,10 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-    <groupId>org.apache.logging.log4j</groupId>
-    <artifactId>log4j-api</artifactId>
-    <version>2.0-beta7</version>
-  </dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.0-beta7</version>
+		</dependency>
 		<dependency>
 			<groupId>jstl</groupId>
 			<artifactId>jstl</artifactId>
@@ -92,67 +94,69 @@
 			<version>1.9.6</version>
 		</dependency>
 		<dependency>
-	   	<groupId>commons-io</groupId>
-	   	<artifactId>commons-io</artifactId>
-	   	<version>2.3</version>
-	   </dependency>
-	   <dependency>
-	   	<groupId>dom4j</groupId>
-	   	<artifactId>dom4j</artifactId>
-	   	<version>1.6</version>
-	   </dependency>
-	    <dependency>
-	   	<groupId>org.jsoup</groupId>
-	   	<artifactId>jsoup</artifactId>
-	   	<version>1.6.0</version>
-	   </dependency>
-	   <dependency>
-	   	<groupId>org.apache.commons</groupId>
-	   	<artifactId>commons-email</artifactId>
-	   	<version>1.2</version>
-	   </dependency>
-	   <dependency>
-	   	<groupId>org.apache.poi</groupId>
-	   	<artifactId>poi</artifactId>
-	   	<version>3.8</version>
-	   </dependency>
-	   <dependency>
-	   	<groupId>org.apache.poi</groupId>
-	   	<artifactId>poi-ooxml</artifactId>
-	   	<version>3.8</version>
-	   </dependency>
-	   <dependency>
-	   	<groupId>net.sf.jxls</groupId>
-	   	<artifactId>jxls-core</artifactId>
-	   	<version>1.0</version>
-	   </dependency>
-	   <dependency>
-	   	<groupId>com.google.code.gson</groupId>
-	   	<artifactId>gson</artifactId>
-	   	<version>2.2.2</version>
-	   </dependency>
-	  <dependency>
-		  <groupId>org.csource</groupId>
-		  <artifactId>fastdfs-client-java</artifactId>
-		  <version>1.27-SNAPSHOT</version>
-	  </dependency>
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.3.5</version>
-        </dependency>
-       <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpcore</artifactId>
-            <version>4.3.2</version>
-        </dependency>
-	  <dependency>
-		  <groupId>commons-httpclient</groupId>
-		  <artifactId>commons-httpclient</artifactId>
-		  <version>3.1</version>
-	  </dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.3</version>
+		</dependency>
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.8</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.8</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jxls</groupId>
+			<artifactId>jxls-core</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.2.2</version>
+		</dependency>
+		<!-- org.csource.fastdfs-client-java 这个好像找不到？怎么办 · Issue #5 · pzhgugu/goshop2 
+			https://github.com/pzhgugu/goshop2/issues/5 -->
+		<dependency>
+			<groupId>org.csource</groupId>
+			<artifactId>fastdfs-client-java</artifactId>
+			<version>1.27-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.3.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpcore</artifactId>
+			<version>4.3.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+			<version>3.1</version>
+		</dependency>
 
-  </dependencies>
+	</dependencies>
 
 	<build>
 		<finalName>spring-fastdsf</finalName>
@@ -161,8 +165,9 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
 		</plugins>
